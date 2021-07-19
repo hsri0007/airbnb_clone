@@ -1,0 +1,42 @@
+/* #1d293f */
+
+footer {
+  background: #1d293f;
+  min-height: 50vh;
+}
+footer h6 {
+  color: rgb(238, 238, 238);
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+footer p {
+  color: rgb(192, 192, 192);
+  text-align: left;
+  font-size: 14px;
+}
+footer a {
+  color: rgb(192, 192, 192);
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+footer svg > * {
+  fill: #dddddd;
+}
+
+.input__bg__footer {
+  background: azure;
+  display: flex;
+}
+.input__bg__footer input {
+  flex: 1;
+  background: azure;
+  border: none;
+  padding-left: 10px;
+}
+.input__bg__footer input:focus {
+  outline: azure;
+}

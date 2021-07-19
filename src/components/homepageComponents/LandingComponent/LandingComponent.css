@@ -1,0 +1,17 @@
+.Landing__page__background {
+  min-height: 55vh;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  place-items: center;
+}
+
+@media (max-width: 800px) {
+  .Landing__page__background {
+    padding-top: 50px;
+  }
+}
+
+.enter__list__item {
+  width: 80%;
+}
