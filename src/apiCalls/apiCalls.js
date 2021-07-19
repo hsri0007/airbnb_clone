@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://ec2-54-245-154-118.us-west-2.compute.amazonaws.com:8080",
+  baseURL: "",
 });
 
 export const fetchPlaces = async (data) => {
